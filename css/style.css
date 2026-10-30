@@ -1,0 +1,132 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --background-color: #f4f4f4;
+    --text-color: #333333;
+    --white-color: #ffffff;
+
+    --small-spacing: 10px;
+    --medium-spacing: 20px;
+    --large-spacing: 30px;
+
+    --small-text: 14px;
+    --normal-text: 16px;
+    --large-text: 24px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    font-size: var(--normal-text);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: var(--large-spacing);
+}
+
+header h1 {
+    margin: 0;
+    font-size: var(--large-text);
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding: var(--medium-spacing);
+    text-align: center;
+}
+
+nav a {
+    color: var(--white-color);
+    text-decoration: none;
+    margin: var(--small-spacing);
+    font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: var(--large-spacing);
+}
+
+section {
+    background-color: var(--white-color);
+    margin-bottom: var(--large-spacing);
+    padding: var(--medium-spacing);
+    border-radius: 8px;
+}
+
+article {
+    background-color: var(--background-color);
+    padding: var(--medium-spacing);
+    margin-top: var(--small-spacing);
+    border-radius: 8px;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: var(--medium-spacing);
+}
+
+th, td {
+    border: 1px solid var(--primary-color);
+    padding: var(--small-spacing);
+    text-align: left;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: var(--small-spacing);
+}
+
+input, textarea {
+    width: 100%;
+    padding: var(--small-spacing);
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: var(--small-spacing) var(--medium-spacing);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: var(--primary-color);
+}
+footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: var(--medium-spacing);
+    margin-top: var(--large-spacing);
+}
