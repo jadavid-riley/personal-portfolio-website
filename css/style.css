@@ -130,3 +130,11 @@ footer {
     padding: var(--medium-spacing);
     margin-top: var(--large-spacing);
 }
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: var(--medium-spacing);
+    margin-top: var(--large-spacing);
+}
