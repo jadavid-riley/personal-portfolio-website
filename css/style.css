@@ -144,3 +144,9 @@ footer {
     padding: var(--medium-spacing);
     margin-top: var(--large-spacing);
 }
+
+@media (max-width: 700px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
