@@ -50,6 +50,7 @@ nav a {
     text-decoration: none;
     margin: var(--small-spacing);
     font-weight: bold;
+    transition: color 0.2s ease;
 }
 
 nav a:hover,
@@ -123,6 +124,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.2s ease;
 }
 
 button:hover,
@@ -167,5 +169,11 @@ footer {
 
     th, td {
         padding: 6px;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    nav a,
+    button {
+        transition: none;
     }
 }
