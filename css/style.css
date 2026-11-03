@@ -39,9 +39,12 @@ header h1 {
 nav {
     background-color: var(--secondary-color);
     padding: var(--medium-spacing);
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--medium-spacing);
 }
-
 nav a {
     color: var(--white-color);
     text-decoration: none;
