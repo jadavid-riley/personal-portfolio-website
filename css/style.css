@@ -177,3 +177,27 @@ footer {
         transition: none;
     }
 }
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    section {
+        min-width: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    article {
+        min-width: 0;
+        box-sizing: border-box;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        min-width: 500px;
+        border-collapse: collapse;
+    }
+}
